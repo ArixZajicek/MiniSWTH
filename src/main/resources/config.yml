@@ -1,0 +1,23 @@
+lang: en_US
+
+
+countdown_delay:
+  # If set to an integer > 0, this value overrides the delay for all teleporting, spawn, warp, home, and back commands.
+  # If you would like to adjust the delay for each command individually, set this to 0.
+  # This number is in seconds.
+  #override_all: 5
+
+  # What cancels a countdown?
+  #pvp_cancels: true
+  #mob_damage_cancels: false
+  #world_damage_cancels: true
+
+  # Should a message be sent every second during the countdown? No. But here's an option just in case.
+  #countdown_live: false
+
+# These options affect both spawn and new player spawn
+spawns:
+  message: true
+  sound: true
+  effect: true
+  #delay: 0

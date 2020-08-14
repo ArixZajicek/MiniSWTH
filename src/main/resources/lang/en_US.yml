@@ -1,0 +1,11 @@
+server_welcome: Welcome %player% to the server!
+spawn_welcome: Welcome to spawn!
+new_spawn_welcome: Welcome to the new player spawn!
+
+
+# Errors
+invalid_permission: You don't have permission to do that!
+invalid_player: %player% is not a valid player!
+spawn_not_set: No spawn is set! If this isn't right, contact an administrator.
+new_spawn_not_set: No new player spawn is set! If this isn't right, contact an administrator.
+console_must_use_on_player: You may only use that command on a player when running from the console.

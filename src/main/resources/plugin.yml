@@ -1,0 +1,21 @@
+name: MiniSWTH
+version: 1.0
+main: cc.arix.miniswth.MiniSWTH
+
+commands:
+  setspawn:
+    description: Set the serverwide spawn location.
+    usage: "Usage: /setspawn [[world] <x> <y> <z> [yaw] [pitch]]"
+    permission: mini.spawn.set
+  spawn:
+    description: Teleport yourself or other players to spawn.
+    usage: "Usage: /spawn [player1 player2 ...]"
+    permission: mini.spawn
+  setnewspawn:
+    description: Set or remove the spawn location for new players.
+    usage: "Usage: /setnewspawn [none | [world] <x> <y> <z> [yaw] [pitch]]"
+    permission: mini.newspawn.set
+  newspawn:
+    description: Teleport yourself or other players to the new player spawn.
+    usage: "Usage: /newspawn [player1 player2 ...]"
+    permission: mini.newspawn
